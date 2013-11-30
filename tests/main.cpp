@@ -8,11 +8,12 @@ TEST(MyMath) {
 
 TEST(test2) {
     MyClass my;
-    CHECK(my.addition(3,4) == 7);
+    CHECK(my.addition(5,4) == 9);
 }
 
 
 int main()
 {
+    int x;
     return UnitTest::RunAllTests();
 }
